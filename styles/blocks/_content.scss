@@ -1,8 +1,10 @@
 .content {
 	display: flex;
+	width: 1260px;
 	flex-direction: column;
 	background-color: var(--color-dark-alt);
 	padding: 30px;
 	border: 1px solid var(--color-dark-ground);
 	border-radius: var(--border-radius-l);
+	flex-shrink: 1;
 }

@@ -8,6 +8,27 @@
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 		<link rel="stylesheet" href="./dist/css/styles.css" />
 		<title>Конвертор</title>
+		<script>
+			(function () {
+				function updateZoom() {
+					const screenWidth = window.innerWidth;
+					const baseWidth = 1440;
+					const zoomFactor = screenWidth / baseWidth;
+
+					if (screenWidth > baseWidth) {
+						document.documentElement.style.zoom = zoomFactor;
+					} else {
+						document.documentElement.style.zoom = 1;
+					}
+				}
+
+				// Вызываем при загрузке
+				updateZoom();
+
+				// Добавляем обработчик изменения размера окна
+				window.addEventListener("resize", updateZoom);
+			})();
+		</script>
 	</head>
 	<body>
 		<div class="container">
