@@ -1,0 +1,31 @@
+:root {
+	--color-dark: #262626;
+	--color-dark-ground: #313131;
+	--color-gray: #808080;
+	--color-dark-alt: #1e1e1e;
+	--color-white: #ffffff;
+	--color-white-alt: #969696;
+
+	--font-family-base: "SourceSansPro", sans-serif;
+
+	--container-width: 1600px;
+	--container-padding-x: 0px;
+
+	--border-radius-l: 12px;
+	--border-radius-m: 8px;
+
+	// --section-padding-y: 70px;
+
+	// --input-height: 59px;
+	// --button-height: 68px;
+
+	--transition-duration: 0.2s;
+
+	// @include desktop {
+	// 	--section-padding-y: 50px;
+	// }
+
+	// @include mobile {
+	// 	--section-padding-y: 30px;
+	// }
+}
